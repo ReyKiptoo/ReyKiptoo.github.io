@@ -1,0 +1,42 @@
+.carousel-inner img {
+height: 500px;
+width: 100%
+}
+.carousel-inner h3 {
+	color: rgb(31, 209, 13);
+}
+.carousel-inner p {
+	color: rgb(13, 209, 194);
+}
+html {
+	height: 100%;
+}
+
+.resize img {
+	height: 150px;
+}
+.resize p {
+	color: rgb(74, 231, 209);
+}
+.resize h5 {
+	color: yellow;
+}
+
+footer {
+	display: flex;
+	height: 50px;
+	background-color: rgb(132, 153, 151);
+
+}
+footer a {
+	padding-left: 50px;
+	color: black;
+}
+footer a:hover {
+	color: blue;
+	font-size: 30px;
+}
+footer p {
+	color: rgb(39, 18, 153);
+	font-weight: 900;
+}

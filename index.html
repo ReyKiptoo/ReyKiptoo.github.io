@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REINHARD KIPTOO</title>
+	<link rel="stylesheet" type="text/css" href="bStrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/fa/css/all.css">
+</head>
+<body>
+<!-- start of nav section -->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+	<!-- Brand -->
+	<a class="navbar-brand" href="#">REINHARD KIPTOO</a>
+
+	<!-- Toggler/collapsibe Button -->
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<!-- Navbar links -->
+	<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="#about">About Me</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#skills">Skills</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#showcase">Projects Showcase</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#contacts">Contact Me</a>
+			</li> 
+		</ul>
+	</div> 
+</nav>
+<!-- end of nav section -->
+
+<!-- start of carousel section -->
+<div id="demo" class="carousel slide mx-auto" data-ride="carousel" id="about">
+
+	<!-- Indicators -->
+	<ul class="carousel-indicators">
+		<li data-target="#demo" data-slide-to="0" class="active"></li>
+		<li data-target="#demo" data-slide-to="1"></li>
+		<li data-target="#demo" data-slide-to="2"></li>
+	</ul>
+
+	<!-- The slideshow -->
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="images/code.jpg" alt="Someone writing some code">
+			<div class="carousel-caption">
+				<h3>Writing Code</h3>
+				<p>This! I always love learning to do.</p>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="images/people.jpg" alt="A group of people">
+			<div class="carousel-caption">
+				<h3>Meeting New People</h3>
+				<p>Can we ever do anything without them?</p>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="images/music.jpg" alt="Headphones">
+			<div class="carousel-caption">
+				<h3>Music</h3>
+				<p>Electronic and House.</p>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="images/art.jpg" alt="A Portrait">
+			<div class="carousel-caption">
+				<h3 style="color: red">Portrait Art</h3>
+				<p style="color: navy">I absolutely love portraits, B&W</p>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="images/travel.jpg" alt="A road">
+			<div class="carousel-caption">
+				<h3>Travel</h3>
+				<p>I would not miss such a place</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Left and right controls -->
+	<a class="carousel-control-prev" href="#demo" data-slide="prev">
+		<span class="carousel-control-prev-icon"></span>
+	</a>
+	<a class="carousel-control-next" href="#demo" data-slide="next">
+		<span class="carousel-control-next-icon"></span>
+	</a>
+
+</div>
+<!-- end of carousel section -->
+
+<!-- start of skills section -->
+<br>
+	<div class="container-fluid" id="showcase">
+		<table class="table table-dark table-hover table-stripped">
+			<thead>
+				<tr>
+					<th colspan="2">Front-End</th>
+					<th colspan="2">Back-End</th>
+				</tr>
+				<tr>
+					<th>Language</th>
+					<th>Skills</th>
+					<th>Language</th>
+					<th>Skills</th>  
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>HTML</td>
+					<td>
+						<div class="progress">
+							<div class="progress-bar bg-important progress-bar-striped progress-bar-animated" style="width:95%">HTML</div>
+						</div>
+					</td>
+					<td>PHP</td>
+					<td>
+						<div class="progress">
+							<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:25%">PHP</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>CSS</td>
+					<td>
+						<div class="progress">
+							<div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width:90%">CSS</div>
+						</div>
+					</td>
+					<td>JAVA</td>
+					<td>
+						<div class="progress">
+							<div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:15%">JAVA</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>Ruby</td>
+					<td>
+						<div class="progress">
+							<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:45%">RUBY</div>
+						</div>
+					</td>
+					<td>SQL</td>
+					<td>
+						<div class="progress">
+							<div class="progress-bar bg-muted progress-bar-striped progress-bar-animated" style="width:65%">SQL</div>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+<!-- end of skills section -->
+
+<!-- start of projects section -->
+<div class="container-fluid" id="contacts">
+	<div class="row text-center bg-dark">
+		<div class="col-3 resize">
+			<h5 class="diplay-4">School Website</h5>
+			<img src="images/school.jpg" class="img-fluid rounded-circle">
+			<p>This is a project I did for my high school</p>
+		</div>
+		<div class="col-3 resize">
+			<h5 class="diplay-4">Lyriq</h5>
+			<img src="images/lyriq.jpg" class="img-fluid rounded-circle">
+			<p>This is a gaming app where people get to have fun with the music they know beyond just listening.</p>
+		</div>
+		<div class="col-3 resize">
+			<h5 class="diplay-4">Tembea</h5>
+			<img src="images/tembea.jpg" class="img-fluid rounded-circle">
+			<p>For the people who love travel in Kenya. This app shows all the places you should not miss.</p>
+		</div>
+		<div class="col-3 resize">
+			<h5 class="diplay-4">Tech Hub</h5>
+			<img src="images/tech.jpg" class="img-fluid rounded-circle">
+			<p>All things technology. Find all the info you need about tech in this app.</p>
+		</div>
+
+	</div>
+</div>
+<!-- end of projects section -->
+
+<!-- start of contacts section -->
+<div class="container-fluid">
+	<div class="row text-center">
+		<div class="col-5 bg-primary">
+			<h3>Contact Me</h3>
+			<form>
+				<div class="form-group">
+					<label for="name">Name:</label>
+					<input type="text" name="class" name="form-control" id="name" placeholder="Enter Your Name">
+				</div>
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="text" name="email" name="form-control" id="email" placeholder="Enter Your Email">
+				</div>	
+				<div class="form-group">
+					<textarea cols="37" rows="7">
+						
+					</textarea>
+				</div>
+				<input type="submit" class="btn btn-primary btn-block" name="">
+			</form>
+		</div>
+		<div class="col-7 bg-warning">
+			<h3>My Location</h3>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2945.378185345119!2d36.79090668065408!3d-1.2978670088657671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f109787542ce1%3A0x1fff8b8ca80946c!2sBlue+Violet+Plaza%2C+Kamburu+Dr%2C+Nairobi!5e0!3m2!1sen!2ske!4v1549026555474" width="700" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+	</div>
+</div>
+<!-- end of contacts section -->
+
+<!-- start of footer section -->
+<footer>
+	<p>&copy; Reinhard Kiptoo 2019</p>
+	<a href="http://twitter.com"><i class="fab fa-twitter"></i></a>
+	<a href="http://github.com/ReyKiptoo"><i class="fab fa-github"></i></a>
+	<a href="http://linkedin.com/ReyKiptoo"><i class="fab fa-linkedin"></i></a>
+	
+</footer>
+<!-- end of footer section -->
+
+	<!-- scripts -->
+	<!-- jquery -->
+	<script type="text/javascript" src="bStrap/js/jquery.js"></script>
+	<!-- bootstrap -->
+	<script type="text/javascript" src="bStrap/js/bootstrap.js"></script>
+</body>
+</html>
